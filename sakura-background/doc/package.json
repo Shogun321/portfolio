@@ -1,0 +1,48 @@
+{
+    "version": "0.1.0",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "build": "webpack --mode=production",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d ./build",
+        "start": "webpack serve --mode=development"
+    },
+    "dependencies": {
+        "sakura-background": "file:../lib",
+        "react": "18.3.1",
+        "react-dom": "18.3.1"
+    },
+    "devDependencies": {
+        "@types/node": "^22.9.0",
+        "@types/react": "^18.3.12",
+        "@types/react-dom": "^18.3.1",
+        "babel-loader": "^9.2.1",
+        "clean-webpack-plugin": "^4.0.0",
+        "copy-webpack-plugin": "^12.0.2",
+        "css-loader": "^6.11.0",
+        "gh-pages": "^6.1.1",
+        "html-webpack-plugin": "^5.6.3",
+        "style-loader": "^3.3.4",
+        "ts-loader": "^9.5.1",
+        "typescript": "5.6.3",
+        "webpack": "^5.96.1",
+        "webpack-cli": "^5.1.4",
+        "webpack-dev-server": "^5.1.0"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 3 chrome version",
+            "last 3 firefox version",
+            "last 3 safari version"
+        ]
+    },
+    "port": 7134,
+    "name": "sakura-background-doc",
+    "description": ""
+}

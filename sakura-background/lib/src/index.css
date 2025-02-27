@@ -1,0 +1,18 @@
+div.SakuraBackground {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+div.SakuraBackground > * {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+div.SakuraBackground > div {
+    display: grid;
+    place-items: center;
+}

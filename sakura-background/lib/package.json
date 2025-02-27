@@ -1,0 +1,54 @@
+{
+    "name": "sakura-background",
+    "version": "0.1.0",
+    "private": false,
+    "main": "dist/index.js",
+    "type": "module",
+    "types": "dist/index.d.ts",
+    "files": [
+        "dist"
+    ],
+    "sideEffects": [
+        "*.css"
+    ],
+    "scripts": {
+        "prepack": "npm run build",
+        "prebuild": "rm -rf dist/*",
+        "build": "build-typescript-library .",
+        "lint": "eslint 'src/**/*.ts'",
+        "start": "build-typescript-library --watch .",
+        "test": "jest",
+        "test:watch": "jest --watch",
+        "prepub": "npm run build",
+        "pub": "npm publish --access public"
+    },
+    "devDependencies": {
+        "@types/react": "^18.3.12",
+        "build-typescript-library": "^0.7.4",
+        "eslint": "^9.14.0",
+        "typescript": "^5.6.3"
+    },
+    "dependencies": {
+        "tslib": "^2.8.1"
+    },
+    "peerDependencies": {
+        "react": "^18.3.1"
+    },
+    "eslintConfig": {
+        "extends": "react-app"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "description": "React components with theme",
+    "homepage": "https://tolokoban.github.io/ui"
+}
