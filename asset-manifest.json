@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Shogun321/portfolio/static/css/main.b26fb501.css",
+    "main.js": "/Shogun321/portfolio/static/js/main.63d61cc1.js",
+    "static/js/453.1407b060.chunk.js": "/Shogun321/portfolio/static/js/453.1407b060.chunk.js",
+    "index.html": "/Shogun321/portfolio/index.html",
+    "main.b26fb501.css.map": "/Shogun321/portfolio/static/css/main.b26fb501.css.map",
+    "main.63d61cc1.js.map": "/Shogun321/portfolio/static/js/main.63d61cc1.js.map",
+    "453.1407b060.chunk.js.map": "/Shogun321/portfolio/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b26fb501.css",
+    "static/js/main.63d61cc1.js"
+  ]
+}
