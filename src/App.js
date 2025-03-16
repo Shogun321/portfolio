@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+//import React, { useEffect } from 'react';
 import './App.css';
 import BackgroundMusicPlayer from './components/BackgroundMusicPlayer';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -55,7 +55,7 @@ function App() {
             data-aos="fade-down"
             data-aos-delay={700}
           >
-            <a href="#projects" aria-label="projects menu button">
+            <a href="https://github.com/Shogun321?tab=repositories" rel="noreferrer" target="_blank" aria-label="projects menu button">
               for project in Projects:
             </a>
           </li>
